@@ -1,8 +1,12 @@
 .header{
     color: #ECF0F1;
 }
+.labels{
+    color: rgba(24, 22, 22, 0.829);
+    font-weight: bolder ;
+}
 .instyle{
-    color: #0e1111;
+    color: #0e1111e8;
     font-size: 25px;
     padding: 20px;
 }
@@ -14,7 +18,9 @@
 #substyle{
     padding: 15px;
     width: 200px;
-    background-color: darkblue;
+    /* background-color: darkblue; */
+    background-image: linear-gradient(rgb(181, 193, 211),rgb(39, 96, 170));
+
     color: white;
     border-radius: 20px;
 }
@@ -40,8 +46,10 @@
     margin-right: 20px;
     border: 1px solid black;
     border-radius: 20px;
+    background-image: linear-gradient(rgb(181, 193, 211),rgb(39, 96, 170));
 
-    background-color: rgb(25, 0, 255);
+
+    /* background-color: rgb(25, 0, 255); */
     
     color: white;
     

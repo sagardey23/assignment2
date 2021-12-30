@@ -26,13 +26,13 @@ function Body() {
         <>
             <h1 className="header">EMPLOYEE FEEDBACK FORM</h1>
             <form action='' className="instyle">
-                <label htmlFor='name'>Name:</label>
+                <label htmlFor='name' className="labels">Name:</label>
                 <input type='text' id='name' name='name' className="inpstyle" value={name} onChange={(e) => setName(e.target.value)} />
                 <br></br>
-                <label htmlFor='department'>Department:</label>
+                <label htmlFor='department' className="labels">Department:</label>
                 <input type='text' id='department' name='department' className="inpstyle" value={department} onChange={(e) => setDepartment(e.target.value)} />
                 <br></br>
-                <label htmlFor='rating'>Rating:</label>
+                <label htmlFor='rating' className="labels">Rating:</label>
                 <input type='number' id='rating' name='rating' className="inpstyle" value={rating} onChange={(e) => setRating(e.target.value)} /> <br></br>
 
                 <button id="substyle" onClick={handleClick}> Submit</button>
